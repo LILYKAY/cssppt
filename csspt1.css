@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.head2{
+    padding: 40px 10px 40px 10px;
+    background-color: blue;
+}
+
+.heading1{
+    color: maroon;
+    text-align: center;
+    font-size: 40px;
+}
+.heading2{
+    background-color: rgb(12, 2, 32);
+    color: rgb(20, 228, 200);
+    text-align: right;
+}
+.paragraph1{
+    color: blue;
+}
+.headborder{
+    border: 7px grey solid;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.expand{
+    flex-basis: 40%
+}
+li{
+    border:5px red solid;
+    padding-right: 12%;
+    width: 50px;
+    border-radius: 100px;
+
+}
+a.hover{
+    color: blueviolet;
+}
+li a{
+    color: brown;
+    display: block;
+}
